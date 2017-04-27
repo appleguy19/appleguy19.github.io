@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+
+  <div class="{{ post.type }}">
+  	{% if post.type == "external-link" %}
+  		<header>
+  			<span>Someone else's fine work &#9758;</span>
+  			<h3><a href="{{ post.link }}">{{ post.title | escape }}</a></h3>
+  		</header>
+  	{% else %}
+      <header>
+        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h3>
+      </header>
+  	{% endif %}
+    {{ post.content }}
+    <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+  </div>
+
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  <h3>Time machine</h3>
+
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="button">Newer Posts</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="button">Older Posts</a>
+  {% endif %}
+
+  <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+</div>

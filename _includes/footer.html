@@ -1,0 +1,19 @@
+<footer>
+  <!-- <img src="/assets/envelope.png" alt=""> -->
+  <nav>
+    <ul>
+      <li><a href="/about/" class="{% if page.url contains "/about/" %}current{% endif %}">About</a></li>
+      <li><a href="/blog/" class="{% if page.url contains "/blog/" %}current{% endif %}">Blog</a></li>
+      <!-- <li><a href="/now" class="{% if page.url contains "/now/" %}current{% endif %}">/now</a></li>
+      <li><a href="/using" class="{% if page.url contains "/using/" %}current{% endif %}">/using</a></li> -->
+    </ul>
+  </nav>
+  <nav class="sub-nav">
+    <ul>
+      <li><a href="https://twitter.com/{ site.twitter_username }">Twitter</a></li>
+      <li><a href="mailto:{ site.email }">Email</a></li>
+      <li><a href="/feed.xml">Subscribe via RSS</a></li>
+    </ul>
+  </nav>
+  <small>All content &copy; Jake Apple. Built on <a href="http://mct.org/busServices/MCT_Wifi_removed.aspx">a bus</a>.</small>
+</footer>
