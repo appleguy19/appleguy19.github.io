@@ -1,76 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-26T17:53:32-05:00</updated><id>http://localhost:4000/</id><title type="html">The Personal Website of Jake Apple</title><subtitle>All things Jake Apple. Mostly mundane.
-</subtitle><entry><title type="html">Increment</title><link href="http://localhost:4000/posts/2017/04/13/increment.html" rel="alternate" type="text/html" title="Increment" /><published>2017-04-13T00:00:00-05:00</published><updated>2017-04-13T00:00:00-05:00</updated><id>http://localhost:4000/posts/2017/04/13/increment</id><content type="html" xml:base="http://localhost:4000/posts/2017/04/13/increment.html">&lt;p&gt;Christ, Stripe’s on fire. Their design and content work has always been ace, but their new online magazine, &lt;em&gt;&lt;a href=&quot;https://increment.com/&quot;&gt;Increment&lt;/a&gt;&lt;/em&gt;, puts them at a whole new level. It focuses on teamwork and the human component of building software, which sounds right up my alley.&lt;/p&gt;</content><author><name></name></author><category term="posts" /><summary type="html">Christ, Stripe’s on fire. Their design and content work has always been ace, but their new online magazine, Increment, puts them at a whole new level. It focuses on teamwork and the human component of building software, which sounds right up my alley.</summary></entry><entry><title type="html">North: An Illustrated Travelogue by Christoph Niemann</title><link href="http://localhost:4000/posts/2017/04/12/north.html" rel="alternate" type="text/html" title="North: An Illustrated Travelogue by Christoph Niemann" /><published>2017-04-12T00:00:00-05:00</published><updated>2017-04-12T00:00:00-05:00</updated><id>http://localhost:4000/posts/2017/04/12/north</id><content type="html" xml:base="http://localhost:4000/posts/2017/04/12/north.html">&lt;p&gt;&lt;a href=&quot;http://www.nationalgeographic.com/travel/destinations/europe/norway/christoph-niemann-artist-trip-svalbard-norway/#cover&quot;&gt;This&lt;/a&gt; might be one of my favorite things online. I absolutely adore Christoph Niemann and this animated, beautifully illustrated, and insightful record of his recent trip north was perfectly done. Bonus points for using a web font of his handwriting for the text, so it’s still accessible.&lt;/p&gt;</content><author><name></name></author><category term="posts" /><summary type="html">This might be one of my favorite things online. I absolutely adore Christoph Niemann and this animated, beautifully illustrated, and insightful record of his recent trip north was perfectly done. Bonus points for using a web font of his handwriting for the text, so it’s still accessible.</summary></entry><entry><title type="html">Nearly Table-Free Emails</title><link href="http://localhost:4000/blog/nearly-table-free-emails" rel="alternate" type="text/html" title="Nearly Table-Free Emails" /><published>2017-04-06T00:00:00-05:00</published><updated>2017-04-06T00:00:00-05:00</updated><id>http://localhost:4000/blog/nearly-table-free-emails</id><content type="html" xml:base="http://localhost:4000/blog/nearly-table-free-emails">&lt;p&gt;&lt;img src=&quot;/assets/img/nearly-table-free.png&quot; alt=&quot;table free emails&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-08T13:14:01-05:00</updated><id>http://localhost:4000/</id><title type="html">The Personal Website of Jake Apple</title><subtitle>All things Jake Apple. Mostly mundane.
+</subtitle><entry><title type="html">Why?</title><link href="http://localhost:4000/blog/why" rel="alternate" type="text/html" title="Why?" /><published>2017-05-08T00:00:00-05:00</published><updated>2017-05-08T00:00:00-05:00</updated><id>http://localhost:4000/blog/why</id><content type="html" xml:base="http://localhost:4000/blog/why">&lt;p&gt;There are a billion blogs out there. Does the internet really need another?&lt;/p&gt;
 
-&lt;p&gt;After taking a few months off, I’ve restarted &lt;a href=&quot;/newsletter&quot;&gt;my email newsletter&lt;/a&gt;. &lt;em&gt;The Intermittent Newsletter&lt;/em&gt;, as it’s called (primarily because I’m lazy and won’t commit to sending on a regular schedule), delivers my latest writing and interesting links I’ve found around the web straight to your inbox. It’s a simple email, following a similar design to this site, but is one of my favorite templates I’ve ever built. Here’s why:&lt;/p&gt;
+&lt;p&gt;Well, probably not. But I’m going to try anyway. Here’s why…&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;It is a nearly table-free email.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I spend a lot of time learning on the internet. Because of the internet I have learned how to fix carburetors, take apart Macs, install water-powered sump pumps, make websites, diagnose and replace the heating coil in a dryer, build a Nicholson workbench, and so much more. The only reason I was able to do those things is becuase someone put them out there.&lt;/p&gt;
 
-&lt;p&gt;Table-free emails have been the holy grail of email design for a long time. Anyone that’s dealt with HTML email knows the pain that comes with relying on tables for building campaigns. While it’d be nice to move to divs or HTML5 sectioning elements in HTML emails, most people can’t—solely due to the fact that most versions of  Microsoft Outlook don’t support positioning and layout CSS rules.&lt;/p&gt;
+&lt;p&gt;I’ve taken a lot from my online peers, but rarely have I given back. I think I’m finally ready to contribute.&lt;/p&gt;
 
-&lt;p&gt;While it’s not quite completely table-free, I’ve managed to get &lt;em&gt;The Intermittent Newsletter&lt;/em&gt; down to a single table—one that’s not even visible to non-Microsoft email clients. Along the way, I made an effort to make The Intermittent Newsletter accessible to more readers.&lt;/p&gt;
+&lt;h3 id=&quot;defining-success&quot;&gt;Defining Success&lt;/h3&gt;
 
-&lt;p&gt;Here’s how.&lt;/p&gt;
+&lt;p&gt;I want to make sure I’m not wasting my energy though. If I want to add to the fabric of the internet, but no one &lt;del&gt;learns anything&lt;/del&gt; even visits, it was a bust. I’d probably be better off putting my energy elsewhere. I don’t want that to happen. So I’m going to try this out until the end of the year. Like a mid-year resolution, so to speak. I just have to make sure I can stay on track. Thankfully, a lot of other people have already figured out how to do this.&lt;/p&gt;
 
-&lt;h2 id=&quot;dropping-tables&quot;&gt;Dropping Tables&lt;/h2&gt;
+&lt;p&gt;At &lt;a href=&quot;http://secondstreet.com&quot;&gt;Secondstreet&lt;/a&gt;, we’ve adopted (and modified) the &lt;a href=&quot;https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/&quot;&gt;OKR system&lt;/a&gt; that Google uses. So I’m going to lay out my Objectives and Key Results for this blog. It’s the only way I know how to determine my success.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;The Intermittent Newsletter&lt;/em&gt; is a simple email. It’s a single column and only has one image. I like all-text emails and simple designs, so things worked out well. All of the content in the email is contained within a single &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; element, which is used to set default styles on the text within.&lt;/p&gt;
+&lt;h3 id=&quot;objectives&quot;&gt;Objectives&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;body style=&quot;margin: 0 !important; padding: 0 !important;&quot;&amp;gt;
-  &amp;lt;div style=&quot;background-color: #ffffff; color: #001b44; font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; font-size: 18px; line-height: 32px; margin: 0 auto; max-width: 720px; padding: 40px 20px 40px 20px;&quot;&amp;gt;
-
-  &amp;lt;!-- CONTENT GOES HERE --&amp;gt;
-
-  &amp;lt;/div&amp;gt;
-&amp;lt;/body&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You can see that I use the &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width&lt;/code&gt; property on that &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; to ensure that the content doesn’t stretch wider than 720 pixels. For most email clients, this works a treat. But, like I mentioned before, Outlook sucks at layout and positioning and doesn’t render the &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width&lt;/code&gt; property on that &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;. Here’s where the single table comes into play.&lt;/p&gt;
-
-&lt;p&gt;For Outlook, I take advantage of MSO conditional tables to add in a simple table that constrains the content to 720 pixels.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;body style=&quot;margin: 0 !important; padding: 0 !important;&quot;&amp;gt;
-  &amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;
-  &amp;lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; width=&quot;720&quot; align=&quot;center&quot; role=&quot;presentation&quot;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;
-  &amp;lt;![endif]—&amp;gt;
-  &amp;lt;div style=&quot;background-color: #ffffff; color: #001b44; font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; font-size: 18px; line-height: 32px; margin: 0 auto; max-width: 720px; padding: 40px 20px 40px 20px;&quot;&amp;gt;
-
-  &amp;lt;!-- CONTENT GOES HERE --&amp;gt;
-
-  &amp;lt;/div&amp;gt;
-  &amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;
-  &amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;
-  &amp;lt;![endif]--&amp;gt;
-&amp;lt;/body&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now, my content is properly displayed across all email clients. With a single table and nothing but a &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;making-things-accessible&quot;&gt;Making Things Accessible&lt;/h2&gt;
-
-&lt;p&gt;I’m increasingly concerned about accessibility, both on the web and within email. To make sure &lt;em&gt;The Intermittent Newsletter&lt;/em&gt; is as accessible as possible, I’ve ditched the old &lt;strong&gt;td or GTFO&lt;/strong&gt; method for structuring and styling copy and used semantic elements, instead. All of my copy is marked up using proper heading and paragraph elements.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;h1 style=&quot;color: #357edd; font-size: 24px; font-weight: normal; line-height: 28px; margin: 40px 0px 100px 0px; text-align: center;&quot;&amp;gt;
-  The Intermittent Newsletter&amp;lt;span style=&quot;color: #ffb700; font-size: 16px;&quot;&amp;gt;by Jason Rodriguez&amp;lt;/span&amp;gt;
-&amp;lt;/h1&amp;gt;
-&amp;lt;h2 style=&quot;font-size: 24px; line-height: 28px; margin: 60px 0px 40px 0px; text-align: center;&quot;&amp;gt;
-  So, it's been a while&amp;amp;hellip;
-&amp;lt;/h2&amp;gt;
-&amp;lt;p style=&quot;margin-bottom: 20px;&quot;&amp;gt;
-  &amp;amp;hellip; but I’m finally back to sending my newsletter. If you forgot who the hell I am or are shaking your head wondering why you’re receiving this, here’s a little bit of context:
-&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;While the default styles on the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; control the styling of most of the email, I do rely on specific inline styles on headings and paragraphs (and the footer copy) to adjust some of those styles. Primarily &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;line-height&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt; are used to make the copy look nice.&lt;/p&gt;
-
-&lt;p&gt;To further aid accessibility, I’ve ensured that screen readers working in Microsoft Outlook ignore that table and only read the content of the email by using the &lt;code class=&quot;highlighter-rouge&quot;&gt;role=&quot;presentation&quot;&lt;/code&gt; attribute on that table element. &lt;a href=&quot;http://blog.rebelmail.com/accessibility-in-email-part-ii/&quot;&gt;Tip of the hat&lt;/a&gt; to Mark Robbins for recommending that approach.&lt;/p&gt;
-
-&lt;h2 id=&quot;its-a-start&quot;&gt;It’s a Start&lt;/h2&gt;
-
-&lt;p&gt;So far, I’m really happy with how this template has worked out. It’s kind of like the &lt;a href=&quot;http://labs.actionrocket.co/the-hybrid-coding-approach&quot;&gt;hybrid coding approach&lt;/a&gt; that’s been in use for a while, but the light-weight version. With just dummy content (heading, couple of paragraphs, and the footer), my code comes in at &lt;strong&gt;81 lines&lt;/strong&gt;. It’s absurdly easy to maintain and update. So easy that I didn’t even bother creating a templatized (is that a word?) version for Campaign Monitor, my ESP of choice.&lt;/p&gt;
-
-&lt;p&gt;This is an approach I would definitely recommend to others that are sending simple, stationary-like email campaigns. I fully understand that it won’t work for everything (multiple columns and complex layouts don’t lend themselves to this approach), but when it works, it works well.&lt;/p&gt;
-
-&lt;p&gt;I’m backing everything up over on GitHub, so you can &lt;a href=&quot;https://github.com/rodriguezcommaj/the-intermittent-newsletter&quot;&gt;check out the code&lt;/a&gt; there.&lt;/p&gt;</content><author><name></name></author><category term="posts" /></entry><entry><title type="html">Note 0007</title><link href="http://localhost:4000/notes/note-0007" rel="alternate" type="text/html" title="Note 0007" /><published>2017-03-21T00:00:00-05:00</published><updated>2017-03-21T00:00:00-05:00</updated><id>http://localhost:4000/notes/note-0007</id><content type="html" xml:base="http://localhost:4000/notes/note-0007">&lt;p&gt;Ah, the rare meeting-free day.&lt;/p&gt;</content><author><name></name></author><category term="notes" /><summary type="html">Ah, the rare meeting-free day.</summary></entry></feed>
+&lt;ul&gt;
+  &lt;li&gt;Be first when Googling ‘jake apple’&lt;/li&gt;
+  &lt;li&gt;Have this blog be considered worthy of syndication at &lt;a href=&quot;https://unpluggedshop.com&quot;&gt;unpluggedshop.com&lt;/a&gt; by December 2017&lt;/li&gt;
+  &lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="posts" /></entry></feed>

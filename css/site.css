@@ -4,29 +4,55 @@ DEFAULTS AND MISC
 ===============================================
 */
 
-html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-*, *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
 body {
-  background-color: #FFFFFF;
-  color: #253746;
-  font-family: -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               helvetica, 'helvetica neue',
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  background-color: #FDFDFD;
+  color: #212121;
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
   font-size: 100%;
   line-height: 1.6;
   padding: 0;
 }
 
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.page {
+  padding: 0.5em 1.5em;
+}
+
+.divider {
+  border-bottom: 3px solid #00B8B0;
+  margin-bottom: 4em;
+  padding-bottom: 1em;
+}
 
 @media screen and (min-width: 800px) {
-  .page { margin: 0 auto; max-width: 100rem; }
-  main { clear: both; margin: 0 auto; max-width: 45rem; padding: 8rem 0 4rem 0; }
+  .page {
+    margin: 0 auto;
+    max-width: 100em;
+  }
+  main {
+    clear: both;
+    margin: 0 auto;
+    max-width: 45em;
+    padding: 8em 0 4em 0;
+  }
 }
+
 
 /*
 ===============================================
@@ -37,15 +63,21 @@ TYPOGRAPHY
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
+
 h1 a, h2 a, h3 a {
-  color: #253746;
+  color: #F1563F;
   text-decoration: none;
 }
-h1 a:hover,
-h2 a:hover,
-h3 a:hover {
+
+h1 a:hover, h2 a:hover, h3 a:hover {
   text-decoration: underline;
 }
+
+h1.page-title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
 
 /*
 ===============================================
@@ -53,16 +85,28 @@ LINKS AND BUTTONS
 ===============================================
 */
 
-a:link 		  { color: #253746; }
-a:visited 	{ color: #253746; }
-a:hover 	  { color: #D1AA5D; cursor: pointer; }
-a:focus 	  { color: #D1AA5D; }
-a:active 	  { color: #D1AA5D; }
+a:link,
+a:visited {
+  color: #F1563F;
+}
+
+a:hover {
+  color: #00B8B0;
+  cursor: pointer;
+}
+
+a:focus {
+  color: #00B8B0;
+}
+
+a:active {
+  color: #00B8B0;
+}
 
 .button {
-  background-color: #FFFFFF;
-  border: 2px solid #D1AA5D;
-  color: #D1AA5D;
+  background-color: transparent;
+  border: 3px solid #F1563F;
+  color: #F1563F;
   display: block;
   font-size: 1.4em;
   margin: 2em 0;
@@ -70,15 +114,15 @@ a:active 	  { color: #D1AA5D; }
   text-align: center;
   text-decoration: none;
   transition: all 0.1s ease;
-  width: 100%;
 }
 
 .button:hover {
-  background-color: #D1AA5D;
-  border: 2px solid #D1AA5D;
-  color: #253746;
+  background-color: #00B8B0;
+  border: 3px solid #00B8B0;
+  color: #FDFDFD;
   cursor: pointer;
 }
+
 
 /*
 ===============================================
@@ -86,43 +130,265 @@ HEADER AND NAV
 ===============================================
 */
 
+header.top h1 {
+  margin-top: 1em;
+  text-align: center;
+}
 
-header h1 { margin-top: 1em; text-align: center; }
-header h1 a, header h1 a:hover { color: #253746; text-decoration: none; }
-header h1 span { color: #D1AA5D; display: block; font-size: 1rem; font-weight: normal; margin-top: 0.5rem; }
+header.top h1 a, header.top h1 a:hover {
+  color: #212121;
+  text-decoration: none;
+}
 
-header nav { margin-bottom: 2rem; }
-header nav ul { list-style-type: none; padding-left: 0; }
-header nav ul a {
-  border-bottom: 2px solid #D1AA5D;
-  color: #253746;
+header.top h1 span {
+  color: #F1563F;
+  display: block;
+  font-size: 0.5em;
+  font-weight: normal;
+  margin-top: 0.5em;
+}
+
+header.top nav {
+  margin-bottom: 2em;
+}
+
+
+header.top nav a {
+  border-bottom: 3px solid #F1563F;
+  color: #212121;
   display: block;
   padding: 0.5em 1em;
   text-align: center;
   text-decoration: none;
   transition: all 0.2s ease;
 }
-header nav ul a:hover {
-  border-bottom: 2px solid #D1AA5D;
-  color: #D1AA5D;
+
+header.top nav a:hover {
+  border-bottom: 3px solid #00B8B0;
+  color: #00B8B0;
   text-decoration: none;
 }
-header nav ul a.current {
-  border-bottom: 2px solid #D1AA5D;
-  color: #D1AA5D;
+
+header.top nav a.current,
+header.top nav a.current:hover {
+  border-bottom: 3px solid #00B8B0;
+  color: #00B8B0;
   text-decoration: none;
 }
 
 @media screen and (min-width: 800px) {
-  header h1 { float: left; font-size: 1.5rem; padding-left: 2rem; text-align: left; width: 30%; }
-  header h1 span { font-size: 0.8rem; }
-  header nav { float: right; padding-right: 2rem; text-align: right; width: 70%; }
-  header nav ul li { display: inline-block; margin: 0 0.5rem; }
-  header nav ul a { padding: 0.8rem 1rem; }
+  header.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header.top h1 {
+    align-self: flex-start;
+    font-size: 1.5em;
+    padding-left: 2em;
+    text-align: left;
+  }
+  header.top h1 span {
+    font-size: 0.6em;
+  }
+  header.top nav {
+    align-self: flex-end;
+    padding-right: 2em;
+    text-align: right;
+  }
+  header.top nav a {
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0.8em 1em;
+  }
 }
 
-@media screen and (min-width: 1320px) {
-  header { padding-top: 1rem; }
-  header h1 { float: left; padding-left: 2rem; text-align: left; width: 50%; }
-  header nav { float: right; padding-right: 2rem; text-align: right; width: 50%; }
+
+/*
+===============================================
+ARTICLES AND CONTENT
+===============================================
+*/
+
+.post {
+  margin-bottom: 8rem;
+}
+
+header h3 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+.meta {
+  font-size: 0.7em;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+p.meta {
+  color: #253746;
+}
+
+article.link {
+  background-color: #F2F2F2;
+  border: 3px solid #F1563F;
+  padding: 1.5em;
+}
+
+article.link header h3 {
+  font-size: 1.4em;
+}
+
+article.link header span {
+  font-size: 0.8em;
+  color: #F58545;
+  text-decoration: none;
+}
+
+/*TODO Fix these color*/
+blockquote {
+  background-color: #fbf1a9;
+  border: 3px solid #ffde37;
+  font-style: italic;
+  line-height: 1.4;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2em;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*TODO Fix these color*/
+pre {
+  background-color: #424242;
+  border: 3px solid #253746;
+  color: #FFFFFF;
+  max-width: 100%;
+  overflow: scroll;
+  padding: 2rem;
+}
+
+/*TODO Fix these color*/
+table {
+  border: 3px solid #001b44;
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+/*TODO Fix these color*/
+td, th {
+  border: 3px solid #001b44;
+  padding: 0.5rem;
+}
+
+/*TODO Fix these color*/
+th {
+  background-color: #001b44;
+  color: #96ccff;
+}
+
+/*TODO Fix these color*/
+hr {
+  border: 0;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  height: 0;
+  margin: 0 0 0 0;
+  max-width: 45rem;
+}
+
+.pagination {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.pagination h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.pagination span {
+  font-style: italic;
+}
+
+@media screen and (min-width: 800px) {
+  blockquote {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .link {
+    padding: 2rem;
+  }
+  article.post header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  article.post header h3 {
+    align-self: flex-start;
+    text-align: left;
+  }
+  article.post header .meta {
+    flex-shrink: 2;
+    min-width: 10em;
+    align-self: flex-end;
+    margin: 0;
+  }
+
+  article.link header {
+    display: block;
+  }
+}
+
+/*
+===============================================
+FOOTER
+===============================================
+*/
+
+footer {
+  background-color: #F2F2F2;
+  border-top: 3px solid #F1563F;
+  margin: 2em 0 0 0;
+  padding: 4em 0 1em 0;
+  text-align: center;
+}
+
+footer img {
+  display: block;
+  margin: 2em auto 0.5em auto;
+  width: 64px;
+}
+
+footer nav {
+  max-width: 45em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav a {
+  color: #F1563F;
+  text-decoration: none;
+  display: block;
+  margin: 1em;
+}
+
+footer nav a:hover {
+  color: #00B8B0;
+}
+
+footer small {
+  opacity: 0.6;
 }
