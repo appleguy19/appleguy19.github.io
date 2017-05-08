@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+
+<article class="post {{ post.type }}">
+  {% if post.type == "link" %}
+    <header>
+      <span>&star; Good stuff from the internets</span>
+      <h3><a href="{{ post.link }}">{{ post.title | escape }}</a></h3>
+    </header>
+    {{ post.content }}
+    <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+  {% else %}
+    <header>
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h3>
+      <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </header>
+    {{ post.content }}
+  {% endif %}
+</article>
+
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
+<div class="pagination">
+  <h3>Time machine</h3>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="button">Newer Posts</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="button">Older Posts</a>
+  {% endif %}
+  <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+</div>
+{% endif %}
