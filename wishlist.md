@@ -12,6 +12,6 @@ Regardless, see the links below to figure out what we'd like for our birthdays.
 
 [The Girls](http://a.co/2NXX3nB)
 
-[Jake - Amazon](http://a.co/bal8IBf)
+[Jake - General](http://a.co/bal8IBf)
 
 [Jake - Woodworking](https://trello.com/b/09dRIIXy/woodworking-tools)
