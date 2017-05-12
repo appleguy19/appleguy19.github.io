@@ -2,7 +2,7 @@
 layout: post
 title: "Sample Draft"
 date: 2017-05-08
-category: posts
+category: general
 type: link
 link: "http://google.com"
 ---

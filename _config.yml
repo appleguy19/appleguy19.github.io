@@ -30,5 +30,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+permalink: pretty
 paginate: 3
 paginate_path: "/blog/page:num/"
