@@ -14,7 +14,7 @@ Let's get right to it. Here are the final dimensions:
 **Depth:** 22 1/8" (which includes a 3/4" split)
 **Height:** 33 1/4"
 
-It fits me quite well, but I got lucky. I knew I needed to design the workbench around the primary user (me), but I had no idea how to do that. I hoped to find someone who was roughly my height (6'2") and copy what they had done. After all, imitation is how we being the learning process (prove this, quote from Girard, perhaps?).  
+It fits me quite well, but I got lucky. I knew I needed to design the workbench around the primary user (me), but I had no idea how to do that. I hoped to find someone who was roughly my height (6'2") and copy what they had done. After all, imitation is how we being the learning process.
 
 What follows is how I settled on each of the key dimensions (length, depth, and height).
 
