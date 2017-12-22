@@ -25,8 +25,8 @@ layout: default
 
 {% if paginator.total_pages > 1 %}
 <!-- Pagination links -->
-<div class="pagination">
-  <h3>Time machine</h3>
+<div class="paginator">
+  <h4 class="paginator-title"><span class="paginator-arrow paginator-arrow-first">&#8623;</span> check out this time machine <span class="paginator-arrow">&#8623;</span></h4>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="button">Newer Posts</a>
   {% endif %}

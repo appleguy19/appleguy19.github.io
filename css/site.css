@@ -295,7 +295,10 @@ blockquote {
 blockquote p {
   margin: 0;
 }
-
+blockquote a:link,
+blockquote a:visited {
+  color: #006C67;
+}
 figure {
   margin-left: 0;
   margin-right: 0;
@@ -341,17 +344,31 @@ hr {
   max-width: 45rem;
 }
 
-.pagination {
+.paginator {
+  border-top: 2px solid #F58545;
   margin-bottom: 4rem;
   text-align: center;
 }
 
-.pagination h3 {
-  font-size: 2rem;
-  margin-bottom: 0;
+.paginator-title {
+  text-transform: uppercase;
+  color: #F58545;
+  margin: 0.5em 0 0;
+  font-weight: 400;
 }
 
-.pagination span {
+.paginator-arrow {
+  font-size: 1.8em;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator-arrow-first {
+  transform: scale(-1, 1);
+}
+
+.paginator .page-number {
   font-style: italic;
 }
 
