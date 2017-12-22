@@ -49,6 +49,11 @@
       <article class="page-article">
         <header>
     			<h1 class="article-title">{{ page.title }}</h1>
+          <p class="meta">Filed in:&nbsp;
+            {% for category in page.categories %}
+              <a href="{{ site.url }}/category/{{category}}">{{category}}</a>{% if category.last == false %},{% endif %}
+            {% endfor %}
+          </p>
     			<!-- <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p> -->
         </header>
   			{{ content }}
