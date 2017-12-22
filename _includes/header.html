@@ -1,6 +1,7 @@
 <header class="top">
   <h1><a href="/">Jake Apple</a><span>I make stuff. Mostly out of wood.</span></h1>
   <nav>
+    {% unless page.url == "/" %}<a href="/">Home</a>{% endunless %}
     <a href="/about/" class="{% if page.url contains "/about/" %}current{% endif %}">About</a>
     <a href="/blog/" class="{% if page.url contains "/blog/" %}current{% endif %}">Blog</a>
   </nav>
