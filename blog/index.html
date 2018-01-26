@@ -8,18 +8,22 @@ layout: default
   {% if post.type == "link" %}
     <header>
       <span>&star; Good stuff from the internets</span>
-      <h3><a href="{{ post.link }}">{{ post.title | escape }}</a></h3>
+      <h1><a href="{{ post.link }}">{{ post.title | escape }}</a></h1>
     </header>
     {{ post.content }}
     <!-- <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div> -->
   {% else %}
     <header>
-      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h3>
+      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h1>
       <!-- <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p> -->
     </header>
     {{ post.content }}
   {% endif %}
 </article>
+
+{% unless forloop.last %}
+  <hr class="post-separator" />
+{% endunless %}
 
 {% endfor %}
 

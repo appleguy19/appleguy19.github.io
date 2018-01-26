@@ -222,7 +222,15 @@ ARTICLES AND CONTENT
 */
 
 .post {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
+}
+
+.post:not(:first-of-type) {
+  margin-top: 6rem;
+}
+
+.post-separator {
+  border-bottom: 6px dotted #F2F2F2
 }
 
 img {
@@ -284,12 +292,12 @@ article.link header span {
 /*TODO Fix these color*/
 blockquote {
   color: #006C67;
-  background-color: #d3f2e8;
-  border: 2px solid #006C67;
+  background-color: #F2F2F2;
+  border-left: 3px solid #006C67;
   font-style: italic;
   line-height: 1.4;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 6rem;
+  margin-right: 1rem;
   padding: 1em;
 }
 blockquote p {
@@ -400,6 +408,7 @@ hr {
   article.link header {
     display: block;
   }
+
 }
 
 /*
