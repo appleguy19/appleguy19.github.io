@@ -8,7 +8,7 @@ type: long
 excerpt: ""
 ---
 
-If you wanted to build your first workbench, and we're considering a knockdown Nicholson, this is what I'd give to you as required reading/viewing.
+If you want to build your first workbench, and are considering a knockdown Nicholson, this is what I'd give to you as required reading/viewing.
 
 ## General
  - [Chris Schwarz's Rules for Workbenches](http://www.popularwoodworking.com/techniques/rules_for_workbenches/)
