@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Personal Website of Jake Apple
+title: Jake Apple Makes Stuff
 email: jake@jakeapple.com
 description: > # this means to ignore newlines until "baseurl:"
   All things Jake Apple. Mostly mundane.
@@ -33,3 +33,5 @@ exclude:
 permalink: pretty
 paginate: 3
 paginate_path: "/blog/page:num/"
+feed:
+  path: atom.xml
