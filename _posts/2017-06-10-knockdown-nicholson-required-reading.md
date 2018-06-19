@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mostly Required Readings"
+title: "Nicholson Bench - Mostly Required Readings"
 date: 2017-06-10
 categories: woodworking
 tags: workbench
