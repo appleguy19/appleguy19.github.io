@@ -8,9 +8,9 @@ If you're reading this, you are likely a family member.
 Or, you're just a little nosy.
 Regardless, see the links below to figure out what we'd like for our birthdays.
 
-[Lindsey](http://a.co/iVnETfN)
+[The Family](http://a.co/2NXX3nB)
 
-[The Girls](http://a.co/2NXX3nB)
+[Lindsey](http://a.co/iVnETfN)
 
 [Jake - General](http://a.co/bal8IBf)
 
