@@ -8,7 +8,7 @@ type: long
 excerpt: ""
 ---
 
-###Here's how I did the split top
+### Here's how I did the split top
 
 ![Topless Knockdown Nicholson]({{ site.url }}/assets/content/bench-without-top.jpg)
 
@@ -21,7 +21,7 @@ I’m not sure this was the best way to do it, but it seemed like a good idea to
 Having the split only be the depth of the top boards would allow me to easily drop in a gap stop that makes the top behave as though it is solid. I can also be selective about what holes and/or slots I make to hold tools if I ever go that route.
 
 
-###Here's why I did the split top
+### Here's why I did the split top
 I decided to go with a split top for these reasons
 
  - At the time, split top [Roubos were everywhere](https://thewoodwhispererguild.com/product/split-top-roubo-workbench/)
@@ -31,7 +31,7 @@ I decided to go with a split top for these reasons
  - Using the gap for clamping
 
 
-###So far, I haven't found the split top to be incredibly useful
+### So far, I haven't found the split top to be incredibly useful
 
  - ~~At the time, split top [Roubos were everywhere](https://thewoodwhispererguild.com/product/split-top-roubo-workbench/)~~ **what's good for French bench, might not translate to an English bench**
  - ~~The idea of storing chisels, marking tools, and saws in the split seemed appealing~~ **The [Texas Heritage Woodworks Saddlebag](http://www.txheritage.net/saddlebag) looks is better in that it doesn't take up bench top space**
@@ -39,6 +39,6 @@ I decided to go with a split top for these reasons
  - ~~Likewise, planing the edges of smaller 3/4 stock would be simple, as I could just drop it in the split~~ **Edge planing in the middle of the bench is awkward.**
  - Using the gap for clamping **Haven't found a need for this yet, but I'm not discounting it either**
 
-###In Hindsight
+### In Hindsight
 
 I would just either just build it as designed or [face nail the top boards like Richard Maguire](https://www.theenglishwoodworker.com/the-planked-top-what-how-why/), since I don't really need the knockdown features. There was just something so appealing (i.e. familiar) about holding everything together with lag bolts.
