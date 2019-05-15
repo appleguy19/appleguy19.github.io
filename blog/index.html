@@ -13,6 +13,12 @@ title: Blog
     </header>
     {{ post.content }}
     <!-- <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div> -->
+  {% elsif post.type == "gallery" %}
+    <header>
+      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h1>
+      <!-- <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p> -->
+    </header>
+    {{ post.content }}
   {% else %}
     <header>
       <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h1>
