@@ -1,39 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f1563f">
-  <meta name="theme-color" content="#ffffff">
-
-	<link rel="stylesheet" href="/css/site.css">
-  {% seo %}
-</head>
-<body>
-
-  <div class="page">
-    {% include header.html %}
-  	<main>
-      <article class="page-article">
-        <header>
-    			<h1 class="article-title">{{ page.title }}</h1>
-          <p class="meta">Filed in:&nbsp;
-            {% for category in page.categories %}
-              <a href="{{ site.url }}/category/{{category}}">{{category}}</a>{% if category.last == false %},{% endif %}
-            {% endfor %}
-          </p>
-    			<!-- <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p> -->
-        </header>
-  			{{ content }}
-  		</article>
-  	</main>
-  </div>
-  {% include footer.html %}
-
-</body>
+---
+layout: default
+---
+<main>
+  <article class="page-article">
+    <header>
+			<h1 class="article-title">{{ page.title }}</h1>
+      <p class="meta">Filed in:&nbsp;
+        {% for category in page.categories %}
+          <a href="{{ site.url }}/category/{{category}}">{{category}}</a>{% if category.last == false %},{% endif %}
+        {% endfor %}
+      </p>
+			<!-- <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p> -->
+    </header>
+		{{ content }}
+	</article>
+</main>

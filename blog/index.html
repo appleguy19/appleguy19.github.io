@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ---
-
+<main>
 {% for post in paginator.posts %}
 
 <article class="post {{ post.type }}">
@@ -47,3 +47,4 @@ title: Blog
   <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 </div>
 {% endif %}
+</main>

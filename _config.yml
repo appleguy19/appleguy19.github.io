@@ -24,6 +24,9 @@ twitter_username: appleguy
 github_username:  appleguy19
 
 # Build settings
+collections:
+  gifts:
+    layout: gift
 markdown: kramdown
 plugins:
   - jekyll-feed
