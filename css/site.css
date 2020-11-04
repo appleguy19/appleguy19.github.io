@@ -820,3 +820,98 @@ footer nav a:hover {
 footer small {
   opacity: 0.6;
 }
+
+/*
+===============================================
+GIFT LIST & GIFTS
+===============================================
+*/
+
+.box-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  margin: 50px auto;
+}
+@media (min-width: 48em) {
+    .box-list {
+        max-width:768px
+    }
+}
+
+@media (min-width: 61.25em) {
+    .box-list {
+        max-width:980px
+    }
+}
+
+@media (min-width: 80em) {
+    .box-list {
+        max-width: 1024px;
+        padding:0
+    }
+}
+.card {
+  position: relative;
+  display: block;
+  width: calc(50% - 6px);
+  margin-bottom: 14px;
+  padding: 20px 20px 75px;
+  box-shadow: 0 0 4px 0 #ccc;
+}
+
+@media (min-width: 48em) {
+    .card {
+        display: block;
+        width: calc(33% - 12px);
+        margin-bottom: 24px;
+        padding: 20px 20px 75px;
+    }
+}
+
+@media (min-width: 61.25em) {
+    .card {
+        width:calc(25% - 16px);
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: 80em) {
+    .card {
+        width: calc(25% - 19px);
+        margin-bottom: 28px;
+        padding-bottom: 80px;
+    }
+}
+
+.purchase-button, .purchase-button:visited, .purchase-button:link {
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 700;
+  padding: .375em .5em .5em;
+  border-radius: 7px;
+  border: 0;
+  background-color: #F58545;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+  width: calc(100% - 40px);
+  position: absolute;
+  bottom: 20px;
+}
+
+.purchase-button:hover {
+    background-color: #00B8B0;
+}
+
+
+@media (min-width: 48em) {
+  .purchase-button {
+        padding:.6em .5em .7em
+    }
+}
