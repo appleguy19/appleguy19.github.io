@@ -7,10 +7,3 @@ image: "drink-trade.jpg"
 purchase_url: "https://www.drinktrade.com"
 price: "$ Varies"
 ---
-I'm pretty advanced
-Chemex
-I take it black
-Light roast
-Surprising and Unconventional
-Whole Bean
-Regular
