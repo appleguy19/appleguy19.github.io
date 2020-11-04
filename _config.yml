@@ -32,6 +32,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+include:
+  - _redirects
 exclude:
   - Gemfile
   - Gemfile.lock

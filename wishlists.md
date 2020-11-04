@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Family Wishlists
-permalink: /family-wishlist.html
+permalink: /family-wishlists.html
 ---
 
 If you're reading this, you are likely a family member.
