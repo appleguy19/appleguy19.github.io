@@ -13,7 +13,3 @@ Regardless, see the links below to figure out what we'd like for birthdays and h
 [Lindsey](http://a.co/iVnETfN)
 
 [Jake]({{site.baseurl}}/jake-wishlist.html)
-
-[Jake - Woodworking Tools](https://trello.com/b/09dRIIXy/woodworking-tools)
-
-[Jake - Lee Valley](http://www.leevalley.com/us/home/WishList5.aspx?UserName=FD6F58A0284683454E25F2342AF50F1F&pw=)
