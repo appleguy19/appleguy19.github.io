@@ -615,17 +615,20 @@ p.meta {
   color: #253746;
 }
 
-article.link {
+article.link,
+article.linked-yt-video {
   background-color: #F2F2F2;
   border: 3px solid #F1563F;
   padding: 1.5em;
 }
 
-article.link header h3 {
+article.link header h3,
+article.linked-yt-video header h3 {
   font-size: 1.4em;
 }
 
-article.link header span {
+article.link header span,
+article.linked-yt-video header span {
   font-size: 0.8em;
   color: #F58545;
   text-decoration: none;
@@ -771,7 +774,8 @@ hr {
     margin: 0;
   }
 
-  article.link header {
+  article.link header,
+  article.linked-yt-video header {
     display: block;
   }
 

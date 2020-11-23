@@ -13,6 +13,16 @@ title: Blog
     </header>
     {{ post.content }}
     <!-- <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div> -->
+  {% elsif post.type == "linked-yt-video" %}
+    <header>
+      <span>&star; Good stuff from the internets</span>
+      <h1><a href="{{ post.link }}">{{ post.title | escape }}</a></h1>
+    </header>
+    <div class="embed">
+      <iframe src="https://www.youtube-nocookie.com/embed/{{ post.yt-id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    {{ post.content }}
+    <!-- <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div> -->
   {% elsif post.type == "gallery" %}
     <header>
       <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h1>
