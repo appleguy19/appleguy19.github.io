@@ -2,18 +2,21 @@
 layout: default
 ---
 <main>
-{{page.content}}
+<h1>{{page.title}}</h1>
+<p>
+  {{page.content}}
+</p>
 </main>
 
 <div class="box-list">
 {% for gift in site.gifts %}
-
+ {% if gift.owner == page.listowner %}
   <div class="card">
     <img src="{{ site.url }}/assets/content/{{gift.image}}" alt="{{gift.title}}">
     <h3>{{gift.title}}</h3>
     <p>{{gift.content}}</p>
     <a href="{{ gift.purchase_url }}" class="purchase-button">{{gift.price}} from {{gift.store}}</a>
   </div>
-
+  {% endif %}
 {% endfor %}
 </div>

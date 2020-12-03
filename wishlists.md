@@ -10,6 +10,6 @@ Regardless, see the links below to figure out what we'd like for birthdays and h
 
 [The Family](http://a.co/2NXX3nB)
 
-[Lindsey](http://a.co/iVnETfN)
+[Lindsey]({{site.baseurl}}/lindsey-wishlist.html)
 
 [Jake]({{site.baseurl}}/jake-wishlist.html)
