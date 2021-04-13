@@ -615,17 +615,17 @@ p.meta {
   color: #253746;
 }
 
-article[class^="link"] {
+article[class*="link"] {
   background-color: #F2F2F2;
   border: 3px solid #F1563F;
   padding: 1.5em;
 }
 
-article[class^="link"] header h3 {
+article[class*="link"] header h3 {
   font-size: 1.4em;
 }
 
-article[class^="link"] header span {
+article[class*="link"] header span {
   font-size: 0.8em;
   color: #F58545;
   text-decoration: none;
@@ -771,7 +771,7 @@ hr {
     margin: 0;
   }
 
-  article[class^="link"] header {
+  article[class*="link"] header {
     display: block;
   }
 
