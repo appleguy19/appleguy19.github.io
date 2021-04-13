@@ -7,5 +7,5 @@ type: link-apple-music
 link: "https://music.apple.com/us/music-video/string-theory-yo-yo-talks-stuart-edgar-chris-about/570059767"
 apple-embed-url: "https://embed.music.apple.com/us/music-video/string-theory-yo-yo-talks-stuart-edgar-chris-about/570059767"
 ---
-As a woodworker, I feel a certain connection to my tools. Of course, I engage with my tools on an intellectual level. Like how to use them properly, the materials, the tolerances, etc. But I can also engage with them on an emotional level. For example, I _really_ enjoy using my Tite-Mark Gauge. It is so well created that I have _feelings_ about it. ('about' not 'for' it. That is something _very different_ 😳).
+As a woodworker, I feel a certain connection to my tools. Of course, I engage with my tools on an intellectual level. Like how to use them properly, the materials, the tolerances, etc. But I can also engage with them on an emotional level. For example, I _really_ enjoy using my Tite-Mark Gauge. It is so well created that I have _feelings_ about it. (Note: feelings 'about' not 'for' 😳).
 It must be similar for musicians too. I was captivated watching and listening to these gifted musicians talk about their 'tools', and it was too good not to share.
