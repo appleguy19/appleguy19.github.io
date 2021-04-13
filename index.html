@@ -15,6 +15,16 @@ layout: default
         </header>
         {{ post.content }}
         <!-- <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div>-->
+      {% elsif post.type == "linked-apple-music" %}
+        <header>
+          <span>&star; Good stuff from the internets</span>
+          <h1><a href="{{ post.link }}">{{ post.title | escape }}</a></h1>
+        </header>
+        <div class="embed">
+          <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{apple-embed-url}}"></iframe>
+        </div>
+        {{ post.content }}
+        <!-- <div class="meta">{{ post.date | date: "%B %-d, %Y" }}</div> -->
       {% elsif post.type == "linked-yt-video" %}
         <header>
           <span>&star; Good stuff from the internets</span>
