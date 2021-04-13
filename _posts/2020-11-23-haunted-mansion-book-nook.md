@@ -3,7 +3,7 @@ layout: post
 title: "Haunted Mansion Book Nook"
 date: 2020-11-23
 category: general
-type: linked-yt-video
+type: link-yt-video
 link: "https://www.youtube.com/watch?v=VSGlCkPapqk"
 yt-id: "VSGlCkPapqk"
 ---

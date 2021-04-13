@@ -3,7 +3,7 @@ layout: post
 title: "String Theory: Yo-Yo Talks With Stuart, Edgar and Chris About Their Instruments"
 date: 2021-04-13
 category: general
-type: linked-apple-music
+type: link-apple-music
 link: "https://music.apple.com/us/music-video/string-theory-yo-yo-talks-stuart-edgar-chris-about/570059767"
 apple-embed-url: "https://embed.music.apple.com/us/music-video/string-theory-yo-yo-talks-stuart-edgar-chris-about/570059767"
 ---
