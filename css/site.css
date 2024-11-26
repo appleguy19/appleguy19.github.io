@@ -390,6 +390,7 @@ body {
 
 .page {
   padding: 0.5em;
+  min-height: 85vh;
 }
 
 .divider {
@@ -839,50 +840,50 @@ GIFT LIST & GIFTS
 */
 
 .box-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: flex-start;
-  margin: 50px auto;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  margin: 20px auto;
 }
 @media (min-width: 48em) {
   .box-list {
     max-width: 768px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
   }
 }
 
 @media (min-width: 61.25em) {
   .box-list {
     max-width: 980px;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 80em) {
   .box-list {
     max-width: 1024px;
-    padding: 0;
   }
 }
 .card {
-  position: relative;
-  display: block;
-  width: calc(50% - 6px);
-  margin-bottom: 14px;
-  padding: 20px 20px 75px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
   box-shadow: 0 0 4px 0 #ccc;
 }
 
 @media (min-width: 48em) {
   .card {
-    display: block;
-    width: calc(33% - 12px);
-    margin-bottom: 24px;
-    padding: 20px 20px 75px;
+    padding: 20px 10px;
   }
 }
 
-@media (min-width: 61.25em) {
+/* @media (min-width: 61.25em) {
   .card {
     width: calc(25% - 16px);
     margin-bottom: 16px;
@@ -895,7 +896,7 @@ GIFT LIST & GIFTS
     margin-bottom: 28px;
     padding-bottom: 80px;
   }
-}
+} */
 
 .purchase-button,
 .purchase-button:visited,
@@ -913,9 +914,7 @@ GIFT LIST & GIFTS
   text-decoration: none;
   display: block;
   text-align: center;
-  width: calc(100% - 40px);
-  position: absolute;
-  bottom: 20px;
+  width: 100%;
 }
 
 .purchase-button:hover {
